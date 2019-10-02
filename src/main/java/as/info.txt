@@ -1,0 +1,96 @@
+https://github.com/m-reza-rahman/javaee-azure/tree/master/iaas
+
+
+1)
+hasło dla admina przy tworznia vm.
+user:   widlfly
+pass:   Secret12345!
+
+
+2)
+połączenia z maszyną wirtualną
+ssh wildfly@51.144.245.0
+
+
+
+
+3)
+Wklejam to do swojej konsoli lokalnej
+ssh wildfly@51.144.245.0
+
+a)
+C:\Users\paral>ssh wildfly@51.144.245.0
+The authenticity of host '51.144.245.0 (51.144.245.0)' can't be established.
+ECDSA key fingerprint is SHA256:Srf3KKm/TCsUc82Bq6MfhqTc8rfe75xMF5MiXNAlUpU.
+Are you sure you want to continue connecting (yes/no)?
+
+
+b)
+Are you sure you want to continue connecting (yes/no)? y
+Please type 'yes' or 'no': yes
+Warning: Permanently added '51.144.245.0' (ECDSA) to the list of known hosts.
+wildfly@51.144.245.0's password:
+
+
+
+4)
+pass: Secret12345!
+wildfly@51.144.245.0's password:
+Connection closed by 51.144.245.0 port 22
+C:\Users\paral>
+
+
+5)
+Hasło musimy wpisać 2 raz żeby zadziałało.
+
+C:\Users\paral>ssh wildfly@51.144.245.0
+wildfly@51.144.245.0's password:
+Permission denied, please try again.
+wildfly@51.144.245.0's password:
+Welcome to Ubuntu 18.04.3 LTS (GNU/Linux 5.0.0-1018-azure x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Wed Oct  2 17:38:07 UTC 2019
+
+  System load:  0.08              Processes:           116
+  Usage of /:   4.2% of 28.90GB   Users logged in:     0
+  Memory usage: 4%                IP address for eth0: 10.0.0.4
+  Swap usage:   0%
+
+7 packages can be updated.
+7 updates are security updates.
+
+
+
+The programs included with the Ubuntu system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
+applicable law.
+
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+wildfly@javaee-cafe-server-reza:~$
+
+
+
+6)
+wildfly@javaee-cafe-server-reza:~$ java -version
+openjdk version "1.8.0_222"
+OpenJDK Runtime Environment (build 1.8.0_222-8u222-b10-1ubuntu1~18.04.1-b10)
+OpenJDK 64-Bit Server VM (build 25.222-b10, mixed mode)
+wildfly@javaee-cafe-server-reza:~$ mvn -version
+Apache Maven 3.6.0
+Maven home: /usr/share/maven
+Java version: 1.8.0_222, vendor: Private Build, runtime: /usr/lib/jvm/java-8-openjdk-amd64/jre
+Default locale: en, platform encoding: UTF-8
+OS name: "linux", version: "5.0.0-1018-azure", arch: "amd64", family: "unix"
+wildfly@javaee-cafe-server-reza:~$
+
+
+7)
