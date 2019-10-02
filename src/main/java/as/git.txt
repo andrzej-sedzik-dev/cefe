@@ -1,0 +1,37 @@
+1) zrobiłęm błąd
+
+C:\dev\software\idea\JAVA\jakarta\YOUTUBE\JakartaOneLiveStream\javaee-cafe>git remote -v
+origin  https://github.com/andrzej-sedzik-dev/cefe.gi (fetch)
+origin  https://github.com/andrzej-sedzik-dev/cefe.gi (push)
+
+2) kasuje referencje do zdalnego repozytorium o nazwie origin.
+C:\dev\software\idea\JAVA\jakarta\YOUTUBE\JakartaOneLiveStream\javaee-cafe>git remote rm origin
+C:\dev\software\idea\JAVA\jakarta\YOUTUBE\JakartaOneLiveStream\javaee-cafe>git remote -v
+C:\dev\software\idea\JAVA\jakarta\YOUTUBE\JakartaOneLiveStream\javaee-cafe>
+
+
+3)
+git init .
+git commit -m "first commit"
+git remote add origin https://github.com/andrzej-sedzik-dev/cefe.git
+git push -u origin master
+
+
+
+4)
+C:\dev\software\idea\JAVA\jakarta\YOUTUBE\JakartaOneLiveStream\javaee-cafe>git push -u origin master
+Counting objects: 54, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (44/44), done.
+Writing objects: 100% (54/54), 397.83 KiB | 15.30 MiB/s, done.
+Total 54 (delta 5), reused 0 (delta 0)
+remote: Resolving deltas: 100% (5/5), done.
+To https://github.com/andrzej-sedzik-dev/cefe.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+
+
+
+
+

@@ -94,3 +94,30 @@ wildfly@javaee-cafe-server-reza:~$
 
 
 7)
+...
+wget https://github.com/<Your GitHub account>/javaee-azure/archive/master.zip
+wget https://github.com/<Your GitHub account>/javaee-azure/archive/master.zip
+
+
+8)
+wildfly@javaee-cafe-server-reza:~$ wget https://github.com/andrzej-sedzik-dev/cefe
+--2019-10-02 18:21:42--  https://github.com/andrzej-sedzik-dev/cefe
+Resolving github.com (github.com)... 140.82.118.4
+Connecting to github.com (github.com)|140.82.118.4|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cefe’
+
+cefe   [ <=>  ]  73.68K  --.-KB/s    in 0.005s
+2019-10-02 18:21:43 (14.4 MB/s) - ‘cefe’ saved [75452]
+wildfly@javaee-cafe-server-reza:~$
+
+
+9)
+wildfly@javaee-cafe-server-reza:~$ ls
+cefe  wildfly-16.0.0.Final  wildfly-16.0.0.Final.zip
+wildfly@javaee-cafe-server-reza:~$
+
+
+10)
+sudo chmod o+x /cafe
